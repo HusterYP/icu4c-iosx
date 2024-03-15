@@ -1,0 +1,4 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/icu4c-iosx/icudata.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/icu4c-iosx/icui18n.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/icu4c-iosx/icuio.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/icu4c-iosx/icuuc.framework

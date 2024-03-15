@@ -1,0 +1,14 @@
+#[DanceCC]LLDB性能统计 https://bytedance.feishu.cn/wiki/wikcnjtmsVlCDS553O1Pj261SHe
+command script import "~/.dancecc/dancecc_lldb.py"
+command script import ~/.cocoapods/eesc_lldb.py
+command script import ~/.cocoapods/eesc_lldb.py
+command script import ~/.cocoapods/eesc_lldb.py
+command script import ~/.cocoapods/eesc_lldb.py
+#LLDB学习时的自定义命令，可删除
+#settings set target.skip-prologue false
+#command alias -H "Print value in ObjC context in hexadecimal" -h "Print in hex" -- cpx expression -f x -l objc --
+#[comment]修改lldbinit自动将ls和ls2.0和Chisel转换成BDChisel通常在运行某些工程后会自动安装。
+#[comment]文档链接https://code.byted.org/iOS_Library/BDChisel
+#[comment]如果想禁止自动修改lldbinit的行为可以在终端下执行代码`touch ~/.BDChisel/.develop`
+#[comment]有问题可以联系lijunliang.9819
+command script import /Users/husteryp/.BDChisel/fblldb.py

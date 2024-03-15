@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/icu4c-iosx/icu4c-iosx-xcframeworks.sh
+${PODS_ROOT}/../../product/frameworks/icudata.xcframework
+${PODS_ROOT}/../../product/frameworks/icui18n.xcframework
+${PODS_ROOT}/../../product/frameworks/icuio.xcframework
+${PODS_ROOT}/../../product/frameworks/icuuc.xcframework

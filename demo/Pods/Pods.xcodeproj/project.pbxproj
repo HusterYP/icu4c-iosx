@@ -1,0 +1,961 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		631BC9FB937E99AFD50097747A9F5163 /* icu4c-iosx */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46EB2E00000DC0 /* Build configuration list for PBXAggregateTarget "icu4c-iosx" */;
+			buildPhases = (
+				46EB2E00000FA0 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "icu4c-iosx";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		46EB2E00000EE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000ED0 /* Foundation.framework */; };
+		46EB2E00000F50 /* Pods-icu4c-demo (iOS)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000F40 /* Pods-icu4c-demo (iOS)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000F90 /* Pods-icu4c-demo (iOS)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000F80 /* Pods-icu4c-demo (iOS)-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46EB2E00000FB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631BC9FB937E99AFD50097747A9F5163;
+			remoteInfo = "icu4c-iosx";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46EB2E000000C0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E000000D0 /* alphaindex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alphaindex.h; path = product/include/unicode/alphaindex.h; sourceTree = "<group>"; };
+		46EB2E000000E0 /* appendable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = appendable.h; path = product/include/unicode/appendable.h; sourceTree = "<group>"; };
+		46EB2E000000F0 /* basictz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = basictz.h; path = product/include/unicode/basictz.h; sourceTree = "<group>"; };
+		46EB2E00000100 /* brkiter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brkiter.h; path = product/include/unicode/brkiter.h; sourceTree = "<group>"; };
+		46EB2E00000110 /* bytestream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bytestream.h; path = product/include/unicode/bytestream.h; sourceTree = "<group>"; };
+		46EB2E00000120 /* bytestrie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bytestrie.h; path = product/include/unicode/bytestrie.h; sourceTree = "<group>"; };
+		46EB2E00000130 /* bytestriebuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bytestriebuilder.h; path = product/include/unicode/bytestriebuilder.h; sourceTree = "<group>"; };
+		46EB2E00000140 /* calendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = calendar.h; path = product/include/unicode/calendar.h; sourceTree = "<group>"; };
+		46EB2E00000150 /* caniter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = caniter.h; path = product/include/unicode/caniter.h; sourceTree = "<group>"; };
+		46EB2E00000160 /* casemap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = casemap.h; path = product/include/unicode/casemap.h; sourceTree = "<group>"; };
+		46EB2E00000170 /* char16ptr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char16ptr.h; path = product/include/unicode/char16ptr.h; sourceTree = "<group>"; };
+		46EB2E00000180 /* chariter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chariter.h; path = product/include/unicode/chariter.h; sourceTree = "<group>"; };
+		46EB2E00000190 /* choicfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = choicfmt.h; path = product/include/unicode/choicfmt.h; sourceTree = "<group>"; };
+		46EB2E000001A0 /* coleitr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = coleitr.h; path = product/include/unicode/coleitr.h; sourceTree = "<group>"; };
+		46EB2E000001B0 /* coll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = coll.h; path = product/include/unicode/coll.h; sourceTree = "<group>"; };
+		46EB2E000001C0 /* compactdecimalformat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = compactdecimalformat.h; path = product/include/unicode/compactdecimalformat.h; sourceTree = "<group>"; };
+		46EB2E000001D0 /* curramt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = curramt.h; path = product/include/unicode/curramt.h; sourceTree = "<group>"; };
+		46EB2E000001E0 /* currpinf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = currpinf.h; path = product/include/unicode/currpinf.h; sourceTree = "<group>"; };
+		46EB2E000001F0 /* currunit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = currunit.h; path = product/include/unicode/currunit.h; sourceTree = "<group>"; };
+		46EB2E00000200 /* datefmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = datefmt.h; path = product/include/unicode/datefmt.h; sourceTree = "<group>"; };
+		46EB2E00000210 /* dbbi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dbbi.h; path = product/include/unicode/dbbi.h; sourceTree = "<group>"; };
+		46EB2E00000220 /* dcfmtsym.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dcfmtsym.h; path = product/include/unicode/dcfmtsym.h; sourceTree = "<group>"; };
+		46EB2E00000230 /* decimfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decimfmt.h; path = product/include/unicode/decimfmt.h; sourceTree = "<group>"; };
+		46EB2E00000240 /* displayoptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = displayoptions.h; path = product/include/unicode/displayoptions.h; sourceTree = "<group>"; };
+		46EB2E00000250 /* docmain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = docmain.h; path = product/include/unicode/docmain.h; sourceTree = "<group>"; };
+		46EB2E00000260 /* dtfmtsym.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtfmtsym.h; path = product/include/unicode/dtfmtsym.h; sourceTree = "<group>"; };
+		46EB2E00000270 /* dtintrv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtintrv.h; path = product/include/unicode/dtintrv.h; sourceTree = "<group>"; };
+		46EB2E00000280 /* dtitvfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtitvfmt.h; path = product/include/unicode/dtitvfmt.h; sourceTree = "<group>"; };
+		46EB2E00000290 /* dtitvinf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtitvinf.h; path = product/include/unicode/dtitvinf.h; sourceTree = "<group>"; };
+		46EB2E000002A0 /* dtptngen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtptngen.h; path = product/include/unicode/dtptngen.h; sourceTree = "<group>"; };
+		46EB2E000002B0 /* dtrule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtrule.h; path = product/include/unicode/dtrule.h; sourceTree = "<group>"; };
+		46EB2E000002C0 /* edits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = edits.h; path = product/include/unicode/edits.h; sourceTree = "<group>"; };
+		46EB2E000002D0 /* enumset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = enumset.h; path = product/include/unicode/enumset.h; sourceTree = "<group>"; };
+		46EB2E000002E0 /* errorcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errorcode.h; path = product/include/unicode/errorcode.h; sourceTree = "<group>"; };
+		46EB2E000002F0 /* fieldpos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fieldpos.h; path = product/include/unicode/fieldpos.h; sourceTree = "<group>"; };
+		46EB2E00000300 /* filteredbrk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = filteredbrk.h; path = product/include/unicode/filteredbrk.h; sourceTree = "<group>"; };
+		46EB2E00000310 /* fmtable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fmtable.h; path = product/include/unicode/fmtable.h; sourceTree = "<group>"; };
+		46EB2E00000320 /* format.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = format.h; path = product/include/unicode/format.h; sourceTree = "<group>"; };
+		46EB2E00000330 /* formattednumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = formattednumber.h; path = product/include/unicode/formattednumber.h; sourceTree = "<group>"; };
+		46EB2E00000340 /* formattedvalue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = formattedvalue.h; path = product/include/unicode/formattedvalue.h; sourceTree = "<group>"; };
+		46EB2E00000350 /* fpositer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fpositer.h; path = product/include/unicode/fpositer.h; sourceTree = "<group>"; };
+		46EB2E00000360 /* gender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gender.h; path = product/include/unicode/gender.h; sourceTree = "<group>"; };
+		46EB2E00000370 /* gregocal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gregocal.h; path = product/include/unicode/gregocal.h; sourceTree = "<group>"; };
+		46EB2E00000380 /* icudataver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = icudataver.h; path = product/include/unicode/icudataver.h; sourceTree = "<group>"; };
+		46EB2E00000390 /* icuplug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = icuplug.h; path = product/include/unicode/icuplug.h; sourceTree = "<group>"; };
+		46EB2E000003A0 /* idna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idna.h; path = product/include/unicode/idna.h; sourceTree = "<group>"; };
+		46EB2E000003B0 /* listformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = listformatter.h; path = product/include/unicode/listformatter.h; sourceTree = "<group>"; };
+		46EB2E000003C0 /* localebuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = localebuilder.h; path = product/include/unicode/localebuilder.h; sourceTree = "<group>"; };
+		46EB2E000003D0 /* localematcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = localematcher.h; path = product/include/unicode/localematcher.h; sourceTree = "<group>"; };
+		46EB2E000003E0 /* localpointer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = localpointer.h; path = product/include/unicode/localpointer.h; sourceTree = "<group>"; };
+		46EB2E000003F0 /* locdspnm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = locdspnm.h; path = product/include/unicode/locdspnm.h; sourceTree = "<group>"; };
+		46EB2E00000400 /* locid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = locid.h; path = product/include/unicode/locid.h; sourceTree = "<group>"; };
+		46EB2E00000410 /* measfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = measfmt.h; path = product/include/unicode/measfmt.h; sourceTree = "<group>"; };
+		46EB2E00000420 /* measunit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = measunit.h; path = product/include/unicode/measunit.h; sourceTree = "<group>"; };
+		46EB2E00000430 /* measure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = measure.h; path = product/include/unicode/measure.h; sourceTree = "<group>"; };
+		46EB2E00000440 /* messagepattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = messagepattern.h; path = product/include/unicode/messagepattern.h; sourceTree = "<group>"; };
+		46EB2E00000450 /* msgfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = msgfmt.h; path = product/include/unicode/msgfmt.h; sourceTree = "<group>"; };
+		46EB2E00000460 /* normalizer2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normalizer2.h; path = product/include/unicode/normalizer2.h; sourceTree = "<group>"; };
+		46EB2E00000470 /* normlzr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normlzr.h; path = product/include/unicode/normlzr.h; sourceTree = "<group>"; };
+		46EB2E00000480 /* nounit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nounit.h; path = product/include/unicode/nounit.h; sourceTree = "<group>"; };
+		46EB2E00000490 /* numberformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = numberformatter.h; path = product/include/unicode/numberformatter.h; sourceTree = "<group>"; };
+		46EB2E000004A0 /* numberrangeformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = numberrangeformatter.h; path = product/include/unicode/numberrangeformatter.h; sourceTree = "<group>"; };
+		46EB2E000004B0 /* numfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = numfmt.h; path = product/include/unicode/numfmt.h; sourceTree = "<group>"; };
+		46EB2E000004C0 /* numsys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = numsys.h; path = product/include/unicode/numsys.h; sourceTree = "<group>"; };
+		46EB2E000004D0 /* parseerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parseerr.h; path = product/include/unicode/parseerr.h; sourceTree = "<group>"; };
+		46EB2E000004E0 /* parsepos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parsepos.h; path = product/include/unicode/parsepos.h; sourceTree = "<group>"; };
+		46EB2E000004F0 /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = product/include/unicode/platform.h; sourceTree = "<group>"; };
+		46EB2E00000500 /* plurfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plurfmt.h; path = product/include/unicode/plurfmt.h; sourceTree = "<group>"; };
+		46EB2E00000510 /* plurrule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plurrule.h; path = product/include/unicode/plurrule.h; sourceTree = "<group>"; };
+		46EB2E00000520 /* ptypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ptypes.h; path = product/include/unicode/ptypes.h; sourceTree = "<group>"; };
+		46EB2E00000530 /* putil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = putil.h; path = product/include/unicode/putil.h; sourceTree = "<group>"; };
+		46EB2E00000540 /* rbbi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rbbi.h; path = product/include/unicode/rbbi.h; sourceTree = "<group>"; };
+		46EB2E00000550 /* rbnf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rbnf.h; path = product/include/unicode/rbnf.h; sourceTree = "<group>"; };
+		46EB2E00000560 /* rbtz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rbtz.h; path = product/include/unicode/rbtz.h; sourceTree = "<group>"; };
+		46EB2E00000570 /* regex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = regex.h; path = product/include/unicode/regex.h; sourceTree = "<group>"; };
+		46EB2E00000580 /* region.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = region.h; path = product/include/unicode/region.h; sourceTree = "<group>"; };
+		46EB2E00000590 /* reldatefmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = reldatefmt.h; path = product/include/unicode/reldatefmt.h; sourceTree = "<group>"; };
+		46EB2E000005A0 /* rep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rep.h; path = product/include/unicode/rep.h; sourceTree = "<group>"; };
+		46EB2E000005B0 /* resbund.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resbund.h; path = product/include/unicode/resbund.h; sourceTree = "<group>"; };
+		46EB2E000005C0 /* schriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schriter.h; path = product/include/unicode/schriter.h; sourceTree = "<group>"; };
+		46EB2E000005D0 /* scientificnumberformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scientificnumberformatter.h; path = product/include/unicode/scientificnumberformatter.h; sourceTree = "<group>"; };
+		46EB2E000005E0 /* search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = search.h; path = product/include/unicode/search.h; sourceTree = "<group>"; };
+		46EB2E000005F0 /* selfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = selfmt.h; path = product/include/unicode/selfmt.h; sourceTree = "<group>"; };
+		46EB2E00000600 /* simpleformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = simpleformatter.h; path = product/include/unicode/simpleformatter.h; sourceTree = "<group>"; };
+		46EB2E00000610 /* simplenumberformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = simplenumberformatter.h; path = product/include/unicode/simplenumberformatter.h; sourceTree = "<group>"; };
+		46EB2E00000620 /* simpletz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = simpletz.h; path = product/include/unicode/simpletz.h; sourceTree = "<group>"; };
+		46EB2E00000630 /* smpdtfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = smpdtfmt.h; path = product/include/unicode/smpdtfmt.h; sourceTree = "<group>"; };
+		46EB2E00000640 /* sortkey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sortkey.h; path = product/include/unicode/sortkey.h; sourceTree = "<group>"; };
+		46EB2E00000650 /* std_string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = std_string.h; path = product/include/unicode/std_string.h; sourceTree = "<group>"; };
+		46EB2E00000660 /* strenum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strenum.h; path = product/include/unicode/strenum.h; sourceTree = "<group>"; };
+		46EB2E00000670 /* stringoptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringoptions.h; path = product/include/unicode/stringoptions.h; sourceTree = "<group>"; };
+		46EB2E00000680 /* stringpiece.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringpiece.h; path = product/include/unicode/stringpiece.h; sourceTree = "<group>"; };
+		46EB2E00000690 /* stringtriebuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringtriebuilder.h; path = product/include/unicode/stringtriebuilder.h; sourceTree = "<group>"; };
+		46EB2E000006A0 /* stsearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stsearch.h; path = product/include/unicode/stsearch.h; sourceTree = "<group>"; };
+		46EB2E000006B0 /* symtable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symtable.h; path = product/include/unicode/symtable.h; sourceTree = "<group>"; };
+		46EB2E000006C0 /* tblcoll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tblcoll.h; path = product/include/unicode/tblcoll.h; sourceTree = "<group>"; };
+		46EB2E000006D0 /* timezone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timezone.h; path = product/include/unicode/timezone.h; sourceTree = "<group>"; };
+		46EB2E000006E0 /* tmunit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tmunit.h; path = product/include/unicode/tmunit.h; sourceTree = "<group>"; };
+		46EB2E000006F0 /* tmutamt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tmutamt.h; path = product/include/unicode/tmutamt.h; sourceTree = "<group>"; };
+		46EB2E00000700 /* tmutfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tmutfmt.h; path = product/include/unicode/tmutfmt.h; sourceTree = "<group>"; };
+		46EB2E00000710 /* translit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = translit.h; path = product/include/unicode/translit.h; sourceTree = "<group>"; };
+		46EB2E00000720 /* tzfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tzfmt.h; path = product/include/unicode/tzfmt.h; sourceTree = "<group>"; };
+		46EB2E00000730 /* tznames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tznames.h; path = product/include/unicode/tznames.h; sourceTree = "<group>"; };
+		46EB2E00000740 /* tzrule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tzrule.h; path = product/include/unicode/tzrule.h; sourceTree = "<group>"; };
+		46EB2E00000750 /* tztrans.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tztrans.h; path = product/include/unicode/tztrans.h; sourceTree = "<group>"; };
+		46EB2E00000760 /* ubidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ubidi.h; path = product/include/unicode/ubidi.h; sourceTree = "<group>"; };
+		46EB2E00000770 /* ubiditransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ubiditransform.h; path = product/include/unicode/ubiditransform.h; sourceTree = "<group>"; };
+		46EB2E00000780 /* ubrk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ubrk.h; path = product/include/unicode/ubrk.h; sourceTree = "<group>"; };
+		46EB2E00000790 /* ucal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucal.h; path = product/include/unicode/ucal.h; sourceTree = "<group>"; };
+		46EB2E000007A0 /* ucasemap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucasemap.h; path = product/include/unicode/ucasemap.h; sourceTree = "<group>"; };
+		46EB2E000007B0 /* ucat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucat.h; path = product/include/unicode/ucat.h; sourceTree = "<group>"; };
+		46EB2E000007C0 /* uchar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uchar.h; path = product/include/unicode/uchar.h; sourceTree = "<group>"; };
+		46EB2E000007D0 /* ucharstrie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucharstrie.h; path = product/include/unicode/ucharstrie.h; sourceTree = "<group>"; };
+		46EB2E000007E0 /* ucharstriebuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucharstriebuilder.h; path = product/include/unicode/ucharstriebuilder.h; sourceTree = "<group>"; };
+		46EB2E000007F0 /* uchriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uchriter.h; path = product/include/unicode/uchriter.h; sourceTree = "<group>"; };
+		46EB2E00000800 /* uclean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uclean.h; path = product/include/unicode/uclean.h; sourceTree = "<group>"; };
+		46EB2E00000810 /* ucnv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucnv.h; path = product/include/unicode/ucnv.h; sourceTree = "<group>"; };
+		46EB2E00000820 /* ucnvsel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucnvsel.h; path = product/include/unicode/ucnvsel.h; sourceTree = "<group>"; };
+		46EB2E00000830 /* ucnv_cb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucnv_cb.h; path = product/include/unicode/ucnv_cb.h; sourceTree = "<group>"; };
+		46EB2E00000840 /* ucnv_err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucnv_err.h; path = product/include/unicode/ucnv_err.h; sourceTree = "<group>"; };
+		46EB2E00000850 /* ucol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucol.h; path = product/include/unicode/ucol.h; sourceTree = "<group>"; };
+		46EB2E00000860 /* ucoleitr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucoleitr.h; path = product/include/unicode/ucoleitr.h; sourceTree = "<group>"; };
+		46EB2E00000870 /* uconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uconfig.h; path = product/include/unicode/uconfig.h; sourceTree = "<group>"; };
+		46EB2E00000880 /* ucpmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucpmap.h; path = product/include/unicode/ucpmap.h; sourceTree = "<group>"; };
+		46EB2E00000890 /* ucptrie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucptrie.h; path = product/include/unicode/ucptrie.h; sourceTree = "<group>"; };
+		46EB2E000008A0 /* ucsdet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucsdet.h; path = product/include/unicode/ucsdet.h; sourceTree = "<group>"; };
+		46EB2E000008B0 /* ucurr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ucurr.h; path = product/include/unicode/ucurr.h; sourceTree = "<group>"; };
+		46EB2E000008C0 /* udat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = udat.h; path = product/include/unicode/udat.h; sourceTree = "<group>"; };
+		46EB2E000008D0 /* udata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = udata.h; path = product/include/unicode/udata.h; sourceTree = "<group>"; };
+		46EB2E000008E0 /* udateintervalformat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = udateintervalformat.h; path = product/include/unicode/udateintervalformat.h; sourceTree = "<group>"; };
+		46EB2E000008F0 /* udatpg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = udatpg.h; path = product/include/unicode/udatpg.h; sourceTree = "<group>"; };
+		46EB2E00000900 /* udisplaycontext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = udisplaycontext.h; path = product/include/unicode/udisplaycontext.h; sourceTree = "<group>"; };
+		46EB2E00000910 /* udisplayoptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = udisplayoptions.h; path = product/include/unicode/udisplayoptions.h; sourceTree = "<group>"; };
+		46EB2E00000920 /* uenum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uenum.h; path = product/include/unicode/uenum.h; sourceTree = "<group>"; };
+		46EB2E00000930 /* ufieldpositer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ufieldpositer.h; path = product/include/unicode/ufieldpositer.h; sourceTree = "<group>"; };
+		46EB2E00000940 /* uformattable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uformattable.h; path = product/include/unicode/uformattable.h; sourceTree = "<group>"; };
+		46EB2E00000950 /* uformattednumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uformattednumber.h; path = product/include/unicode/uformattednumber.h; sourceTree = "<group>"; };
+		46EB2E00000960 /* uformattedvalue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uformattedvalue.h; path = product/include/unicode/uformattedvalue.h; sourceTree = "<group>"; };
+		46EB2E00000970 /* ugender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ugender.h; path = product/include/unicode/ugender.h; sourceTree = "<group>"; };
+		46EB2E00000980 /* uidna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uidna.h; path = product/include/unicode/uidna.h; sourceTree = "<group>"; };
+		46EB2E00000990 /* uiter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uiter.h; path = product/include/unicode/uiter.h; sourceTree = "<group>"; };
+		46EB2E000009A0 /* uldnames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uldnames.h; path = product/include/unicode/uldnames.h; sourceTree = "<group>"; };
+		46EB2E000009B0 /* ulistformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ulistformatter.h; path = product/include/unicode/ulistformatter.h; sourceTree = "<group>"; };
+		46EB2E000009C0 /* uloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uloc.h; path = product/include/unicode/uloc.h; sourceTree = "<group>"; };
+		46EB2E000009D0 /* ulocale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ulocale.h; path = product/include/unicode/ulocale.h; sourceTree = "<group>"; };
+		46EB2E000009E0 /* ulocbuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ulocbuilder.h; path = product/include/unicode/ulocbuilder.h; sourceTree = "<group>"; };
+		46EB2E000009F0 /* ulocdata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ulocdata.h; path = product/include/unicode/ulocdata.h; sourceTree = "<group>"; };
+		46EB2E00000A00 /* umachine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = umachine.h; path = product/include/unicode/umachine.h; sourceTree = "<group>"; };
+		46EB2E00000A10 /* umisc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = umisc.h; path = product/include/unicode/umisc.h; sourceTree = "<group>"; };
+		46EB2E00000A20 /* umsg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = umsg.h; path = product/include/unicode/umsg.h; sourceTree = "<group>"; };
+		46EB2E00000A30 /* umutablecptrie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = umutablecptrie.h; path = product/include/unicode/umutablecptrie.h; sourceTree = "<group>"; };
+		46EB2E00000A40 /* unifilt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unifilt.h; path = product/include/unicode/unifilt.h; sourceTree = "<group>"; };
+		46EB2E00000A50 /* unifunct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unifunct.h; path = product/include/unicode/unifunct.h; sourceTree = "<group>"; };
+		46EB2E00000A60 /* unimatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unimatch.h; path = product/include/unicode/unimatch.h; sourceTree = "<group>"; };
+		46EB2E00000A70 /* unirepl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unirepl.h; path = product/include/unicode/unirepl.h; sourceTree = "<group>"; };
+		46EB2E00000A80 /* uniset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uniset.h; path = product/include/unicode/uniset.h; sourceTree = "<group>"; };
+		46EB2E00000A90 /* unistr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unistr.h; path = product/include/unicode/unistr.h; sourceTree = "<group>"; };
+		46EB2E00000AA0 /* unorm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unorm.h; path = product/include/unicode/unorm.h; sourceTree = "<group>"; };
+		46EB2E00000AB0 /* unorm2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unorm2.h; path = product/include/unicode/unorm2.h; sourceTree = "<group>"; };
+		46EB2E00000AC0 /* unum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unum.h; path = product/include/unicode/unum.h; sourceTree = "<group>"; };
+		46EB2E00000AD0 /* unumberformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unumberformatter.h; path = product/include/unicode/unumberformatter.h; sourceTree = "<group>"; };
+		46EB2E00000AE0 /* unumberoptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unumberoptions.h; path = product/include/unicode/unumberoptions.h; sourceTree = "<group>"; };
+		46EB2E00000AF0 /* unumberrangeformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unumberrangeformatter.h; path = product/include/unicode/unumberrangeformatter.h; sourceTree = "<group>"; };
+		46EB2E00000B00 /* unumsys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unumsys.h; path = product/include/unicode/unumsys.h; sourceTree = "<group>"; };
+		46EB2E00000B10 /* uobject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uobject.h; path = product/include/unicode/uobject.h; sourceTree = "<group>"; };
+		46EB2E00000B20 /* upluralrules.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = upluralrules.h; path = product/include/unicode/upluralrules.h; sourceTree = "<group>"; };
+		46EB2E00000B30 /* uregex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uregex.h; path = product/include/unicode/uregex.h; sourceTree = "<group>"; };
+		46EB2E00000B40 /* uregion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uregion.h; path = product/include/unicode/uregion.h; sourceTree = "<group>"; };
+		46EB2E00000B50 /* ureldatefmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ureldatefmt.h; path = product/include/unicode/ureldatefmt.h; sourceTree = "<group>"; };
+		46EB2E00000B60 /* urename.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = urename.h; path = product/include/unicode/urename.h; sourceTree = "<group>"; };
+		46EB2E00000B70 /* urep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = urep.h; path = product/include/unicode/urep.h; sourceTree = "<group>"; };
+		46EB2E00000B80 /* ures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ures.h; path = product/include/unicode/ures.h; sourceTree = "<group>"; };
+		46EB2E00000B90 /* uscript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uscript.h; path = product/include/unicode/uscript.h; sourceTree = "<group>"; };
+		46EB2E00000BA0 /* usearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = usearch.h; path = product/include/unicode/usearch.h; sourceTree = "<group>"; };
+		46EB2E00000BB0 /* uset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uset.h; path = product/include/unicode/uset.h; sourceTree = "<group>"; };
+		46EB2E00000BC0 /* usetiter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = usetiter.h; path = product/include/unicode/usetiter.h; sourceTree = "<group>"; };
+		46EB2E00000BD0 /* ushape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ushape.h; path = product/include/unicode/ushape.h; sourceTree = "<group>"; };
+		46EB2E00000BE0 /* usimplenumberformatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = usimplenumberformatter.h; path = product/include/unicode/usimplenumberformatter.h; sourceTree = "<group>"; };
+		46EB2E00000BF0 /* uspoof.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uspoof.h; path = product/include/unicode/uspoof.h; sourceTree = "<group>"; };
+		46EB2E00000C00 /* usprep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = usprep.h; path = product/include/unicode/usprep.h; sourceTree = "<group>"; };
+		46EB2E00000C10 /* ustdio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ustdio.h; path = product/include/unicode/ustdio.h; sourceTree = "<group>"; };
+		46EB2E00000C20 /* ustream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ustream.h; path = product/include/unicode/ustream.h; sourceTree = "<group>"; };
+		46EB2E00000C30 /* ustring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ustring.h; path = product/include/unicode/ustring.h; sourceTree = "<group>"; };
+		46EB2E00000C40 /* ustringtrie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ustringtrie.h; path = product/include/unicode/ustringtrie.h; sourceTree = "<group>"; };
+		46EB2E00000C50 /* utext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utext.h; path = product/include/unicode/utext.h; sourceTree = "<group>"; };
+		46EB2E00000C60 /* utf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf.h; path = product/include/unicode/utf.h; sourceTree = "<group>"; };
+		46EB2E00000C70 /* utf16.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf16.h; path = product/include/unicode/utf16.h; sourceTree = "<group>"; };
+		46EB2E00000C80 /* utf32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf32.h; path = product/include/unicode/utf32.h; sourceTree = "<group>"; };
+		46EB2E00000C90 /* utf8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf8.h; path = product/include/unicode/utf8.h; sourceTree = "<group>"; };
+		46EB2E00000CA0 /* utf_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf_old.h; path = product/include/unicode/utf_old.h; sourceTree = "<group>"; };
+		46EB2E00000CB0 /* utmscale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utmscale.h; path = product/include/unicode/utmscale.h; sourceTree = "<group>"; };
+		46EB2E00000CC0 /* utrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utrace.h; path = product/include/unicode/utrace.h; sourceTree = "<group>"; };
+		46EB2E00000CD0 /* utrans.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utrans.h; path = product/include/unicode/utrans.h; sourceTree = "<group>"; };
+		46EB2E00000CE0 /* utypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utypes.h; path = product/include/unicode/utypes.h; sourceTree = "<group>"; };
+		46EB2E00000CF0 /* uvernum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uvernum.h; path = product/include/unicode/uvernum.h; sourceTree = "<group>"; };
+		46EB2E00000D00 /* uversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uversion.h; path = product/include/unicode/uversion.h; sourceTree = "<group>"; };
+		46EB2E00000D10 /* vtzone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vtzone.h; path = product/include/unicode/vtzone.h; sourceTree = "<group>"; };
+		46EB2E00000D30 /* icudata.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = icudata.xcframework; path = product/frameworks/icudata.xcframework; sourceTree = "<group>"; };
+		46EB2E00000D40 /* icui18n.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = icui18n.xcframework; path = product/frameworks/icui18n.xcframework; sourceTree = "<group>"; };
+		46EB2E00000D50 /* icuio.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = icuio.xcframework; path = product/frameworks/icuio.xcframework; sourceTree = "<group>"; };
+		46EB2E00000D60 /* icuuc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = icuuc.xcframework; path = product/frameworks/icuuc.xcframework; sourceTree = "<group>"; };
+		46EB2E00000D80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		46EB2E00000D90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		46EB2E00000DA0 /* icu4c-iosx.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "icu4c-iosx.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00000E00 /* icu4c-iosx-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "icu4c-iosx-xcframeworks.sh"; sourceTree = "<group>"; };
+		46EB2E00000E10 /* icu4c-iosx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "icu4c-iosx.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000E20 /* icu4c-iosx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "icu4c-iosx.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000ED0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46EB2E00000F00 /* Pods-icu4c-demo (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-icu4c-demo (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000F10 /* Pods-icu4c-demo (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-icu4c-demo (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000F20 /* Pods-icu4c-demo (iOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-icu4c-demo (iOS)-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000F30 /* Pods-icu4c-demo (iOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-icu4c-demo (iOS).modulemap"; sourceTree = "<group>"; };
+		46EB2E00000F40 /* Pods-icu4c-demo (iOS)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-icu4c-demo (iOS)-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000F60 /* Pods-icu4c-demo (iOS)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-icu4c-demo (iOS)-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00000F70 /* Pods-icu4c-demo (iOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-icu4c-demo (iOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00000F80 /* Pods-icu4c-demo (iOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-icu4c-demo (iOS)-dummy.m"; sourceTree = "<group>"; };
+		D4C96322E1C1C65ABE2746F695244D11 /* Pods-icu4c-demo (iOS) */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-icu4c-demo (iOS)"; path = Pods_icu4c_demo__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46EB2E00000EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00000EE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46EB2E00000010 = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000000C0 /* Podfile */,
+				46EB2E00000090 /* Development Pods */,
+				46EB2E00000060 /* Frameworks */,
+				46EB2E00000020 /* Products */,
+				46EB2E00000070 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		46EB2E00000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4C96322E1C1C65ABE2746F695244D11 /* Pods-icu4c-demo (iOS) */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46EB2E00000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000EC0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46EB2E00000070 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000EF0 /* Pods-icu4c-demo (iOS) */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		46EB2E00000090 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000000B0 /* icu4c-iosx */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		46EB2E000000B0 /* icu4c-iosx */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000000D0 /* alphaindex.h */,
+				46EB2E000000E0 /* appendable.h */,
+				46EB2E000000F0 /* basictz.h */,
+				46EB2E00000100 /* brkiter.h */,
+				46EB2E00000110 /* bytestream.h */,
+				46EB2E00000120 /* bytestrie.h */,
+				46EB2E00000130 /* bytestriebuilder.h */,
+				46EB2E00000140 /* calendar.h */,
+				46EB2E00000150 /* caniter.h */,
+				46EB2E00000160 /* casemap.h */,
+				46EB2E00000170 /* char16ptr.h */,
+				46EB2E00000180 /* chariter.h */,
+				46EB2E00000190 /* choicfmt.h */,
+				46EB2E000001A0 /* coleitr.h */,
+				46EB2E000001B0 /* coll.h */,
+				46EB2E000001C0 /* compactdecimalformat.h */,
+				46EB2E000001D0 /* curramt.h */,
+				46EB2E000001E0 /* currpinf.h */,
+				46EB2E000001F0 /* currunit.h */,
+				46EB2E00000200 /* datefmt.h */,
+				46EB2E00000210 /* dbbi.h */,
+				46EB2E00000220 /* dcfmtsym.h */,
+				46EB2E00000230 /* decimfmt.h */,
+				46EB2E00000240 /* displayoptions.h */,
+				46EB2E00000250 /* docmain.h */,
+				46EB2E00000260 /* dtfmtsym.h */,
+				46EB2E00000270 /* dtintrv.h */,
+				46EB2E00000280 /* dtitvfmt.h */,
+				46EB2E00000290 /* dtitvinf.h */,
+				46EB2E000002A0 /* dtptngen.h */,
+				46EB2E000002B0 /* dtrule.h */,
+				46EB2E000002C0 /* edits.h */,
+				46EB2E000002D0 /* enumset.h */,
+				46EB2E000002E0 /* errorcode.h */,
+				46EB2E000002F0 /* fieldpos.h */,
+				46EB2E00000300 /* filteredbrk.h */,
+				46EB2E00000310 /* fmtable.h */,
+				46EB2E00000320 /* format.h */,
+				46EB2E00000330 /* formattednumber.h */,
+				46EB2E00000340 /* formattedvalue.h */,
+				46EB2E00000350 /* fpositer.h */,
+				46EB2E00000360 /* gender.h */,
+				46EB2E00000370 /* gregocal.h */,
+				46EB2E00000380 /* icudataver.h */,
+				46EB2E00000390 /* icuplug.h */,
+				46EB2E000003A0 /* idna.h */,
+				46EB2E000003B0 /* listformatter.h */,
+				46EB2E000003C0 /* localebuilder.h */,
+				46EB2E000003D0 /* localematcher.h */,
+				46EB2E000003E0 /* localpointer.h */,
+				46EB2E000003F0 /* locdspnm.h */,
+				46EB2E00000400 /* locid.h */,
+				46EB2E00000410 /* measfmt.h */,
+				46EB2E00000420 /* measunit.h */,
+				46EB2E00000430 /* measure.h */,
+				46EB2E00000440 /* messagepattern.h */,
+				46EB2E00000450 /* msgfmt.h */,
+				46EB2E00000460 /* normalizer2.h */,
+				46EB2E00000470 /* normlzr.h */,
+				46EB2E00000480 /* nounit.h */,
+				46EB2E00000490 /* numberformatter.h */,
+				46EB2E000004A0 /* numberrangeformatter.h */,
+				46EB2E000004B0 /* numfmt.h */,
+				46EB2E000004C0 /* numsys.h */,
+				46EB2E000004D0 /* parseerr.h */,
+				46EB2E000004E0 /* parsepos.h */,
+				46EB2E000004F0 /* platform.h */,
+				46EB2E00000500 /* plurfmt.h */,
+				46EB2E00000510 /* plurrule.h */,
+				46EB2E00000520 /* ptypes.h */,
+				46EB2E00000530 /* putil.h */,
+				46EB2E00000540 /* rbbi.h */,
+				46EB2E00000550 /* rbnf.h */,
+				46EB2E00000560 /* rbtz.h */,
+				46EB2E00000570 /* regex.h */,
+				46EB2E00000580 /* region.h */,
+				46EB2E00000590 /* reldatefmt.h */,
+				46EB2E000005A0 /* rep.h */,
+				46EB2E000005B0 /* resbund.h */,
+				46EB2E000005C0 /* schriter.h */,
+				46EB2E000005D0 /* scientificnumberformatter.h */,
+				46EB2E000005E0 /* search.h */,
+				46EB2E000005F0 /* selfmt.h */,
+				46EB2E00000600 /* simpleformatter.h */,
+				46EB2E00000610 /* simplenumberformatter.h */,
+				46EB2E00000620 /* simpletz.h */,
+				46EB2E00000630 /* smpdtfmt.h */,
+				46EB2E00000640 /* sortkey.h */,
+				46EB2E00000650 /* std_string.h */,
+				46EB2E00000660 /* strenum.h */,
+				46EB2E00000670 /* stringoptions.h */,
+				46EB2E00000680 /* stringpiece.h */,
+				46EB2E00000690 /* stringtriebuilder.h */,
+				46EB2E000006A0 /* stsearch.h */,
+				46EB2E000006B0 /* symtable.h */,
+				46EB2E000006C0 /* tblcoll.h */,
+				46EB2E000006D0 /* timezone.h */,
+				46EB2E000006E0 /* tmunit.h */,
+				46EB2E000006F0 /* tmutamt.h */,
+				46EB2E00000700 /* tmutfmt.h */,
+				46EB2E00000710 /* translit.h */,
+				46EB2E00000720 /* tzfmt.h */,
+				46EB2E00000730 /* tznames.h */,
+				46EB2E00000740 /* tzrule.h */,
+				46EB2E00000750 /* tztrans.h */,
+				46EB2E00000760 /* ubidi.h */,
+				46EB2E00000770 /* ubiditransform.h */,
+				46EB2E00000780 /* ubrk.h */,
+				46EB2E00000790 /* ucal.h */,
+				46EB2E000007A0 /* ucasemap.h */,
+				46EB2E000007B0 /* ucat.h */,
+				46EB2E000007C0 /* uchar.h */,
+				46EB2E000007D0 /* ucharstrie.h */,
+				46EB2E000007E0 /* ucharstriebuilder.h */,
+				46EB2E000007F0 /* uchriter.h */,
+				46EB2E00000800 /* uclean.h */,
+				46EB2E00000810 /* ucnv.h */,
+				46EB2E00000830 /* ucnv_cb.h */,
+				46EB2E00000840 /* ucnv_err.h */,
+				46EB2E00000820 /* ucnvsel.h */,
+				46EB2E00000850 /* ucol.h */,
+				46EB2E00000860 /* ucoleitr.h */,
+				46EB2E00000870 /* uconfig.h */,
+				46EB2E00000880 /* ucpmap.h */,
+				46EB2E00000890 /* ucptrie.h */,
+				46EB2E000008A0 /* ucsdet.h */,
+				46EB2E000008B0 /* ucurr.h */,
+				46EB2E000008C0 /* udat.h */,
+				46EB2E000008D0 /* udata.h */,
+				46EB2E000008E0 /* udateintervalformat.h */,
+				46EB2E000008F0 /* udatpg.h */,
+				46EB2E00000900 /* udisplaycontext.h */,
+				46EB2E00000910 /* udisplayoptions.h */,
+				46EB2E00000920 /* uenum.h */,
+				46EB2E00000930 /* ufieldpositer.h */,
+				46EB2E00000940 /* uformattable.h */,
+				46EB2E00000950 /* uformattednumber.h */,
+				46EB2E00000960 /* uformattedvalue.h */,
+				46EB2E00000970 /* ugender.h */,
+				46EB2E00000980 /* uidna.h */,
+				46EB2E00000990 /* uiter.h */,
+				46EB2E000009A0 /* uldnames.h */,
+				46EB2E000009B0 /* ulistformatter.h */,
+				46EB2E000009C0 /* uloc.h */,
+				46EB2E000009D0 /* ulocale.h */,
+				46EB2E000009E0 /* ulocbuilder.h */,
+				46EB2E000009F0 /* ulocdata.h */,
+				46EB2E00000A00 /* umachine.h */,
+				46EB2E00000A10 /* umisc.h */,
+				46EB2E00000A20 /* umsg.h */,
+				46EB2E00000A30 /* umutablecptrie.h */,
+				46EB2E00000A40 /* unifilt.h */,
+				46EB2E00000A50 /* unifunct.h */,
+				46EB2E00000A60 /* unimatch.h */,
+				46EB2E00000A70 /* unirepl.h */,
+				46EB2E00000A80 /* uniset.h */,
+				46EB2E00000A90 /* unistr.h */,
+				46EB2E00000AA0 /* unorm.h */,
+				46EB2E00000AB0 /* unorm2.h */,
+				46EB2E00000AC0 /* unum.h */,
+				46EB2E00000AD0 /* unumberformatter.h */,
+				46EB2E00000AE0 /* unumberoptions.h */,
+				46EB2E00000AF0 /* unumberrangeformatter.h */,
+				46EB2E00000B00 /* unumsys.h */,
+				46EB2E00000B10 /* uobject.h */,
+				46EB2E00000B20 /* upluralrules.h */,
+				46EB2E00000B30 /* uregex.h */,
+				46EB2E00000B40 /* uregion.h */,
+				46EB2E00000B50 /* ureldatefmt.h */,
+				46EB2E00000B60 /* urename.h */,
+				46EB2E00000B70 /* urep.h */,
+				46EB2E00000B80 /* ures.h */,
+				46EB2E00000B90 /* uscript.h */,
+				46EB2E00000BA0 /* usearch.h */,
+				46EB2E00000BB0 /* uset.h */,
+				46EB2E00000BC0 /* usetiter.h */,
+				46EB2E00000BD0 /* ushape.h */,
+				46EB2E00000BE0 /* usimplenumberformatter.h */,
+				46EB2E00000BF0 /* uspoof.h */,
+				46EB2E00000C00 /* usprep.h */,
+				46EB2E00000C10 /* ustdio.h */,
+				46EB2E00000C20 /* ustream.h */,
+				46EB2E00000C30 /* ustring.h */,
+				46EB2E00000C40 /* ustringtrie.h */,
+				46EB2E00000C50 /* utext.h */,
+				46EB2E00000C60 /* utf.h */,
+				46EB2E00000C70 /* utf16.h */,
+				46EB2E00000C80 /* utf32.h */,
+				46EB2E00000C90 /* utf8.h */,
+				46EB2E00000CA0 /* utf_old.h */,
+				46EB2E00000CB0 /* utmscale.h */,
+				46EB2E00000CC0 /* utrace.h */,
+				46EB2E00000CD0 /* utrans.h */,
+				46EB2E00000CE0 /* utypes.h */,
+				46EB2E00000CF0 /* uvernum.h */,
+				46EB2E00000D00 /* uversion.h */,
+				46EB2E00000D10 /* vtzone.h */,
+				46EB2E00000D20 /* Frameworks */,
+				46EB2E00000D70 /* Pod */,
+				46EB2E00000DF0 /* Support Files */,
+			);
+			name = "icu4c-iosx";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		46EB2E00000D20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000D30 /* icudata.xcframework */,
+				46EB2E00000D40 /* icui18n.xcframework */,
+				46EB2E00000D50 /* icuio.xcframework */,
+				46EB2E00000D60 /* icuuc.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46EB2E00000D70 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000DA0 /* icu4c-iosx.podspec */,
+				46EB2E00000D80 /* LICENSE */,
+				46EB2E00000D90 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		46EB2E00000DF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000E00 /* icu4c-iosx-xcframeworks.sh */,
+				46EB2E00000E10 /* icu4c-iosx.debug.xcconfig */,
+				46EB2E00000E20 /* icu4c-iosx.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "demo/Pods/Target Support Files/icu4c-iosx";
+			sourceTree = "<group>";
+		};
+		46EB2E00000EC0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000ED0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46EB2E00000EF0 /* Pods-icu4c-demo (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000F30 /* Pods-icu4c-demo (iOS).modulemap */,
+				46EB2E00000F70 /* Pods-icu4c-demo (iOS)-acknowledgements.markdown */,
+				46EB2E00000F60 /* Pods-icu4c-demo (iOS)-acknowledgements.plist */,
+				46EB2E00000F80 /* Pods-icu4c-demo (iOS)-dummy.m */,
+				46EB2E00000F20 /* Pods-icu4c-demo (iOS)-Info.plist */,
+				46EB2E00000F40 /* Pods-icu4c-demo (iOS)-umbrella.h */,
+				46EB2E00000F10 /* Pods-icu4c-demo (iOS).debug.xcconfig */,
+				46EB2E00000F00 /* Pods-icu4c-demo (iOS).release.xcconfig */,
+			);
+			name = "Pods-icu4c-demo (iOS)";
+			path = "Target Support Files/Pods-icu4c-demo (iOS)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46EB2E00000E80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00000F50 /* Pods-icu4c-demo (iOS)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BDAAF9645026C44CC49126F754960529 /* Pods-icu4c-demo (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00000E40 /* Build configuration list for PBXNativeTarget "Pods-icu4c-demo (iOS)" */;
+			buildPhases = (
+				46EB2E00000E80 /* Headers */,
+				46EB2E00000E90 /* Sources */,
+				46EB2E00000EA0 /* Frameworks */,
+				46EB2E00000EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E00000FC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-icu4c-demo (iOS)";
+			productName = Pods_icu4c_demo__iOS_;
+			productReference = D4C96322E1C1C65ABE2746F695244D11 /* Pods-icu4c-demo (iOS) */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46EB2E00000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 46EB2E00000030 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 46EB2E00000010;
+			productRefGroup = 46EB2E00000020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				631BC9FB937E99AFD50097747A9F5163 /* icu4c-iosx */,
+				BDAAF9645026C44CC49126F754960529 /* Pods-icu4c-demo (iOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46EB2E00000EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46EB2E00000FA0 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/icu4c-iosx/icu4c-iosx-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/icu4c-iosx/icu4c-iosx-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/icu4c-iosx/icu4c-iosx-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46EB2E00000E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00000F90 /* Pods-icu4c-demo (iOS)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46EB2E00000FC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "icu4c-iosx";
+			target = 631BC9FB937E99AFD50097747A9F5163 /* icu4c-iosx */;
+			targetProxy = 46EB2E00000FB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46EB2E00000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		46EB2E00000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		46EB2E00000DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00000E20 /* icu4c-iosx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46EB2E00000DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00000E10 /* icu4c-iosx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46EB2E00000E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00000F00 /* Pods-icu4c-demo (iOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-icu4c-demo (iOS)/Pods-icu4c-demo (iOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-icu4c-demo (iOS)/Pods-icu4c-demo (iOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46EB2E00000E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00000F10 /* Pods-icu4c-demo (iOS).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-icu4c-demo (iOS)/Pods-icu4c-demo (iOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-icu4c-demo (iOS)/Pods-icu4c-demo (iOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46EB2E00000030 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00000040 /* Debug */,
+				46EB2E00000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E00000DC0 /* Build configuration list for PBXAggregateTarget "icu4c-iosx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00000DE0 /* Debug */,
+				46EB2E00000DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E00000E40 /* Build configuration list for PBXNativeTarget "Pods-icu4c-demo (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00000E60 /* Debug */,
+				46EB2E00000E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46EB2E00000000 /* Project object */;
+}
